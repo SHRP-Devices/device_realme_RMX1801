@@ -104,3 +104,19 @@ TW_H_OFFSET := -80
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 16.1.0
+
+# SHRP Flags
+SHRP_PATH := device/realme/RMX1801
+SHRP_MAINTAINER := Ad1tyaS1ngh
+SHRP_DEVICE_CODE := RMX1801
+SHRP_REC_TYPE := SAR
+SHRP_DEVICE_TYPE := A_only
+SHRP_NOTCH := true
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /UFS_SD
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_FLASH := 1
+SHRP_OFFICIAL := true
+SHRP_DARK := true
+SHRP_REC := /dev/block/by-name/recovery
