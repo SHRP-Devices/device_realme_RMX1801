@@ -42,3 +42,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.build.security_patch=2099-12-31
+
+# Blacklist Properties
+PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
+    ro.build.date \
+    ro.build.date.utc
